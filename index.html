@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alice in Wonderland — Intro</title>
+  <meta name="description" content="An accessible e-book of Alice's Adventures in Wonderland (Ch.1–3) with semantic HTML, typography, and responsive design." />
+
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .intro-hero {
+      background: radial-gradient(ellipse at top, rgba(176,58,72,0.08), rgba(63,108,81,0.05));
+      border: 1px solid rgba(0,0,0,0.05);
+      border-radius: 12px;
+      padding: 1rem 1.25rem;
+    }
+    h1 { letter-spacing: 0.02em; }
+  </style>
+</head>
+<body>
+  <a class="visually-hidden" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="wrapper">
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html">Intro</a>
+        <a href="chapter1.html">Chapter 1</a>
+        <a href="chapter2.html">Chapter 2</a>
+        <a href="chapter3.html">Chapter 3</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrapper">
+    <header class="intro-hero">
+      <h1>Alice in Wonderland</h1>
+      <h2>Project Introduction</h2>
+    </header>
+
+    <section class="clearfix" aria-labelledby="about">
+      <h3 id="about">Project Introduction</h3>
+      <figure>
+        <img class="responsive" src="imgs/alice.png" alt="Victorian-style illustration of Alice peering into a rabbit hole." />
+        <figcaption>Image: Public domain — Source: Library of Congress.</figcaption>
+      </figure>
+      <p>This project presents Chapters 1–3 of <em>Alice in Wonderland</em> by Lewis Carroll, formatted for readability and accessibility. You will find clear navigation, high-contrast typography, and responsive images that wrap within the flow of the text for a book-like experience on the web.</p>
+      <p>All images and text used in this project are in the public domain. Image credits and licensing are listed in the footer of each page. The design uses a restrained three-color palette and two complementary typefaces to evoke a whimsical yet legible reading experience.</p>
+      <p>Use the navigation links above—or at the bottom of each page—to jump between the introduction and chapters. Line lengths, line height, and semantic structure are set to support comfortable reading on both mobile and desktop devices.</p>
+    </section>
+
+    <nav class="bottom-nav" aria-label="Footer navigation">
+      <a href="index.html">Intro</a>
+      <a href="chapter1.html">Chapter 1</a>
+      <a href="chapter2.html">Chapter 2</a>
+      <a href="chapter3.html">Chapter 3</a>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <div> &copy; 2025 LaDora Hannebaum</div>
+      <div>Text & images: Public domain. Source: Library of Congress.</div>
+      <div>Fonts: <strong>Merriweather</strong> & <strong>Playfair Display</strong>.</div>
+    </div>
+  </footer>
+</body>
+</html>
